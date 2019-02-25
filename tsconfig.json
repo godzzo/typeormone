@@ -1,0 +1,39 @@
+// Angular
+{
+	"compileOnSave": false,
+	"compilerOptions": {
+	  "baseUrl": "./",
+	  "outDir": "./dist/out-tsc",
+	  "sourceMap": true,
+	  "declaration": false,
+	  "module": "es2015",
+	  "moduleResolution": "node",
+	  "emitDecoratorMetadata": true,
+	  "experimentalDecorators": true,
+	  "target": "es6",
+	  "typeRoots": [
+		"node_modules/@types"
+	  ],
+	  "lib": [
+		"es2018",
+		"dom"
+	  ]
+	}
+}
+/*
+NestJS
+{
+	"compilerOptions": {
+	  "module": "commonjs",
+	  "declaration": true,
+	  "removeComments": true,
+	  "emitDecoratorMetadata": true,
+	  "experimentalDecorators": true,
+	  "target": "es6",
+	  "sourceMap": true,
+	  "outDir": "./dist",
+	  "baseUrl": "./"
+	},
+	"exclude": ["node_modules"]
+  }
+*/
